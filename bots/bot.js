@@ -30,4 +30,5 @@ module.exports = class Bot {
     postTime (text, time) {
         this.postDelayed(text, time.getTime() - Date.now());
     }
+    
 }
